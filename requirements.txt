@@ -2,7 +2,7 @@
 # 📊 DATA PROCESSING & ANALYSIS
 # ---------------------------------------------
 pandas==1.5.3          # Data manipulation and analysis — core for working with tabular data
-numpy==1.24.3          # Numerical operations, arrays, and matrix support (used by almost all ML libraries)
+numpy==1.26.3          # Numerical operations, arrays, and matrix support (used by almost all ML libraries)
 
 # ---------------------------------------------
 # 🧠 MACHINE LEARNING
