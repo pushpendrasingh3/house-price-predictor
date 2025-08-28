@@ -1,4 +1,6 @@
+---
 name: Streamlit CI
+
 on:
   push:
     paths:
@@ -18,7 +20,7 @@ jobs:
           registry: docker.io
           username: ${{ vars.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - name: Build and push Docker image
+      - name: Build and Push Docker image
         uses: docker/build-push-action@v5
         with:
           context: ./streamlit_app
