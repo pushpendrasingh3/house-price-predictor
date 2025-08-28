@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 ---# .github/workflows/mlops-pipeline.yml
 name: MLOps pipeline
+=======
+# .github/workflows/mlops-pipeline.yml
+name: MLOps Pipeline
+>>>>>>> 9ea2428 (mlops-pipeline.yml syntax error corrected)
 
 on:
   push:
